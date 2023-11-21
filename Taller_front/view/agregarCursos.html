@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <form method="post" action="#" class="text">
+            <label>Código del curso:</label>
+            <input type="text" name="coursesId" id="coursesId" required class="transparent">
+            <label>Nombre del curso:</label>
+            <input type="hidden" name="seleccion" value="docente">
+            <input type="text" name="coursesName" id="coursesName" required>
+            <label for="idTeacher">Docentes:</label>
+            <select name="idTeacher" id="idTeacher" class="select-box">
+             </select>
+            <input type="submit" value="Agregar Docente" class="add-button">
+        </form>
+    
+    </div>
+    <a href="cursos.html">volver</a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/agregarCur.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <form method="post" action="#" class="text">
+            <label>Código del docente:</label>
+            <input type="text" name="teacherId" id="teacherId" required class="transparent">
+            <label>Nombre del docente:</label>
+            <input type="hidden" name="seleccion" value="docente">
+            <input type="text" name="teacherName" id="teacherName" required>
+            <label for="occupation">Ocupación:</label>
+            <select name="idOccupation" id="idOccupation" class="select-box">
+             </select>
+            <input type="submit" value="Agregar Docente" class="add-button">
+        </form>
+    
+    </div>
+    <a href="../index.html">volver</a>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/agregardoc.js"></script>
+</body>
+</html>
