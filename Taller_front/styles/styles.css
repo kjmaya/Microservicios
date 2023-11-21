@@ -1,0 +1,107 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #080808;
+    color: #ddd;
+}
+.card {
+    background-color: #060606;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-color: #9c29b9;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #b734db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #9c29b9;
+}
+
+.add-button {
+    width: auto;
+    margin-top: 15px;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #c534db;
+}
+
+table {
+    width: 80%; /* Cambiado el ancho a 80% */
+    border-collapse: collapse;
+    margin: 20px auto; /* Para centrar la tabla */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #000000; /* Tono rosado claro para el encabezado */
+}
+.btn-container {
+    text-align: center; /* Para centrar los botones */
+}
+
+.btn-container {
+    text-align: center; /* Para centrar los botones */
+}
+
+/* Estilos para los botones */
+a.button,
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.button {
+    background-color: #b734db;
+    color: white;
+}
+
+a.button:hover {
+    background-color: #9c29b9;
+}
+
+.btn {
+    background-color: #ee69ff;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #ff1493;
+}
